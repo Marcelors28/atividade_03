@@ -12,7 +12,7 @@ Este repositório faz parte das atividades do curso Dev Full Stack da MaisPraTi,
 
 - Footer: Inclui informações de direitos autorais.
 
--- Estilização com CSS:
+- Estilização com CSS:
 - Cores: Aplicadas ao fundo do header, section, aside e footer.
 
 - Centralização: Texto centralizado no header e no footer.
