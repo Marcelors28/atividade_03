@@ -1,118 +1,126 @@
 body {
-
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body::before {
-    background-image: url('../Atividade03/images/fundo1.jpg'); 
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.6; 
-    z-index: -1;
+  background-image: url("../Atividade03/images/fundo1.jpg");
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 header {
-    background-color: rgba(12, 12, 230, 0.5);
-    color: black;
-    text-align: center;
-    padding: 1em 0;
+  background-color: rgba(12, 12, 230, 0.5);
+  color: black;
+  text-align: center;
+  padding: 1em 0;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
 
 nav ul li a {
-    background-color: #0f37e7c5;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: larger;
-    display: inline-block; 
-    border-radius: 4px;
-    margin-right: 10px;
+  background-color: #0f37e7c5;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: larger;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 10px;
 }
 
 nav ul li a:hover {
-    color: #ddd;
+  color: #ddd;
 }
 
 main {
-    display: flex;
-    margin: 20px;
+  display: flex;
+  margin: 20px;
 }
 
 section {
-    flex: 70%;
-    background-color: #f4f4f46c;
-    padding: 20px;
-    border-radius: 5px;
+  flex: 70%;
+  background-color: #f4f4f46c;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 aside {
-    flex: 30%;
-    background-color: rgba(0, 0, 255, 0.2);
-    color: white;
-    padding: 20px;
-    margin-left: 20px;
-    text-align: center;
-    border-radius: 5px;
+  flex: 30%;
+  background-color: rgba(0, 0, 255, 0.2);
+  color: white;
+  padding: 20px;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-
 aside li a {
-    padding: 10px 20px;
-    display: inline-block;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 20px;
-    background-color: rgba(0, 0, 255, 0.692);
-    margin-top: 5px;
-    text-align: center;
-    list-style: none;
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 255, 0.692);
+  margin-top: 5px;
+  text-align: center;
+  list-style: none;
 }
 
 aside ul {
-    list-style: none;
+  list-style: none;
 }
 
-
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 3px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 3px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 img {
-    max-width: 30%;
-    height: auto;
-    border-radius: 5px;
+  max-width: 30%;
+  height: auto;
+  border-radius: 5px;
 }
 
 a:hover {
+  background-color: black;
+  color: white;
+}
 
-    background-color: black;
-    color: white;
+@media (max-width: 768px) {
+  main {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+  }
 }
